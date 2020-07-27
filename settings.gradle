@@ -1,0 +1,3 @@
+rootProject.name='LMWNetwork'
+include ':app'
+include ':lib'
