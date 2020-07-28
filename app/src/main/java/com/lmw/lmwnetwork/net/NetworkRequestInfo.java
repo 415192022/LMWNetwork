@@ -4,7 +4,7 @@ package com.lmw.lmwnetwork.net;
 import android.app.Application;
 
 import com.lmw.lmwnetwork.BuildConfig;
-import com.lmw.lmwnetwork.lib.base.INetworkRequiredInfo;
+import com.lmw.lmwnetwork.lib.core.INetworkRequiredInfo;
 
 public class NetworkRequestInfo implements INetworkRequiredInfo {
     private Application mApplication;

@@ -2,11 +2,10 @@ package com.lmw.lmwnetwork.net;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
-import com.lmw.lmwnetwork.lib.beans.TecentBaseResponse;
 
 import java.util.List;
 
-public class NewsChannelsBean extends TecentBaseResponse {
+public class NewsChannelsBean extends Test1BaseResponse {
     @SerializedName("showapi_res_body")
     @Expose
     public ShowapiResBody showapiResBody;
