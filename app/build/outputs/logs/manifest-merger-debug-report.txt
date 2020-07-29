@@ -1,188 +1,249 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml:2:1-22:12
-INJECTED from /Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml:2:1-22:12
-INJECTED from /Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml:2:1-22:12
-INJECTED from /Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml:2:1-22:12
-MERGED from [:lib] /Users/mingwei/AsClone/Android/LMWNetwork/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
-MERGED from [androidx.preference:preference:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/cab729c1d9a5f0aa04852b923fb30865/preference-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/b9e914c43ffdb6da264327fd529d0ec4/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core-ktx:1.3.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/8f646bd51dc19cd1c2acce4ade8c3e38/jetified-core-ktx-1.3.0/AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/d80c3cba3589ac8c3b1e567d578d4995/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
-MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/826582aeec3d18ccd71febf69058bd45/jetified-rxandroid-2.1.1/AndroidManifest.xml:15:1-20:12
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/88784b384c1e00e9a472254e51cc2ab8/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/2bf9583115e18001cdd318f3b3c2dc50/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/1c59e7c5ae927298e1f412bc3dcccc43/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/cd016547fb1a6d6e03ee9d55e65348e4/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/29f3a2ee96e81085522ac19f03103100/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/ea0f736808dc8fced4f19accd11a71e2/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/313e4e23d1adc569b72efd3ac1cb2d90/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/22c3bfdce44c8566d86d455e740ff6c3/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/9832436ef9a0d3329181fc65a62f7ff5/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/bc22cdfa57d6f64aafb3adf79506ac80/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/760f6590ec06a59654c346402e5cd428/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/91b6fd1d294dd7f841a5f065c7e0e100/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/f4ae03f90a0a6e361ca78984659ab872/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/504f3c3019c5885d1fb5b3d381bd50b9/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/b1b688d0e02c9d6b9dea4d88f55e3b90/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/7e36e491922e81c6df60b3369b6ec868/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/35534b116ddb4621b07d19d7774a69e5/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.3.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/c5fc0371a055bf468ea7f13ec7b8a170/core-1.3.0/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/51d3f20ceda47a6c6ca92ece58bd1d81/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/fe6aa0af5efb789fda115d6f3f831b8b/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/33ad9d38f7f0852ceb48f2d74c95ca0f/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/f8cabe7c52b76eb44f1951fcfe4303f5/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/ade1242c4c06b62a9dde96b213f83f5c/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/26558c811bb7ce035915493c51bc92ef/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/e9bf6462af3213e7986313224864b135/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/dab0c85f87ff500848f787ce02eb0c17/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/3c3b79aa7ebbf5231da05e145d1c89ae/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/67fe2a8954b9f0e6af5f09fcd0650e5e/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/fa329afac3d35187d1a93609a1443cf7/print-1.0.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml:2:1-22:12
-INJECTED from /Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml:2:1-22:12
-INJECTED from /Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml:2:1-22:12
+ADDED from /Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml:2:1-22:12
+MERGED from [:lib] /Users/limingwei/AndroidStudioClone/LMWNetwork/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:2:1-41:12
+MERGED from [androidx.preference:preference:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/6daa98295621963c32b20874f7e6674b/preference-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/b3e3a4190b61d8cbca82b58972b18296/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.3.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/a2aa3c8bca8d83a763643b56a27edfef/jetified-core-ktx-1.3.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/a0cf03732c2d18c0077744c583d2ffa8/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/1445a659d5b9bc8cf1db85a3b7cc0ffd/jetified-rxandroid-2.1.1/AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/32d472d94f30788bfb055ec20ee7e8c3/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/a03be8af6d179e8d5e22c4555a219793/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/e76b1d4b7f774da3d687e739fdb41f43/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/0d7e0a318812a2a79e52f1b32ae5ba80/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/1b2d56dd5def0ff724a5a0b9875011dd/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/947bf955400b6d58d023254689419f47/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/625d33ec924ac4052e1fb5364cfa8e44/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/570985f82799d0b77eed396d577e04ff/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/a9720123e41e82b317d8af9217e93ac0/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/b14fa9df586c16ac219eb291981ef47a/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/c94abb0d564c81430f2b504ca07d1539/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/8dfd70dc64ec2ddcc3e1cfeeaa11e892/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55859d3bda9d878d20a2e83643b33167/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/83a88a2be5eec2aae12e197cc66af63e/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/686b55d7342f2005a030f0dd636a0ab0/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/b02bf5d01ae9bd1dd9c1d84b2a23d51f/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/87ffaf378cbe1dcab6d37a6ca4e96b5a/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/d0fe3fd4863ed63cfaba31a75f9b72db/core-1.3.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/62107d02081c86dea6bd182177c000b6/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/4da5d4791ec483b53d05a748b1f85676/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/c09bcef74c025ac5ff2b59847d3668af/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/942546730c6dae2beca8d23a37209389/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/8c7e1e0fbf5c4a856ad8d5822a3c47d4/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/f591bc26810f18df837716943a7a0a00/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/890f8fe6a9c91bad78bb504055bf3e82/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/e554419b79c74e36a0417a422832ea35/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/76efb8894833e5b03686cbb6fe429801/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/ab2a5691ca8cc709de078008f9f2206f/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/3ab65870353eaaea728dcb437c02f7da/print-1.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml:2:1-22:12
 	package
-		ADDED from /Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml:3:5-33
-		INJECTED from /Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml
+		ADDED from /Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml:3:5-33
+		INJECTED from /Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml
-		ADDED from /Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml:2:1-22:12
-		INJECTED from /Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml
+		ADDED from /Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml:2:1-22:12
+		INJECTED from /Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml
-		ADDED from /Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml:2:1-22:12
-		INJECTED from /Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml
+		ADDED from /Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml:2:1-22:12
+		INJECTED from /Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml:5:5-20:19
-MERGED from [:lib] /Users/mingwei/AsClone/Android/LMWNetwork/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-81
-MERGED from [:lib] /Users/mingwei/AsClone/Android/LMWNetwork/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-81
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/d80c3cba3589ac8c3b1e567d578d4995/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/d80c3cba3589ac8c3b1e567d578d4995/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
-MERGED from [androidx.core:core:1.3.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/c5fc0371a055bf468ea7f13ec7b8a170/core-1.3.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.3.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/c5fc0371a055bf468ea7f13ec7b8a170/core-1.3.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/51d3f20ceda47a6c6ca92ece58bd1d81/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/51d3f20ceda47a6c6ca92ece58bd1d81/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+ADDED from /Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml:5:5-20:19
+MERGED from [:lib] /Users/limingwei/AndroidStudioClone/LMWNetwork/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-81
+MERGED from [:lib] /Users/limingwei/AndroidStudioClone/LMWNetwork/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-81
+MERGED from [com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:9:5-39:19
+MERGED from [com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:9:5-39:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/a0cf03732c2d18c0077744c583d2ffa8/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/a0cf03732c2d18c0077744c583d2ffa8/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.3.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/d0fe3fd4863ed63cfaba31a75f9b72db/core-1.3.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/d0fe3fd4863ed63cfaba31a75f9b72db/core-1.3.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/62107d02081c86dea6bd182177c000b6/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/62107d02081c86dea6bd182177c000b6/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.3.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/c5fc0371a055bf468ea7f13ec7b8a170/core-1.3.0/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.3.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/d0fe3fd4863ed63cfaba31a75f9b72db/core-1.3.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml:11:9-35
+		ADDED from /Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml:11:9-35
 	android:label
-		ADDED from /Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml:9:9-41
+		ADDED from /Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml:9:9-41
 	android:roundIcon
-		ADDED from /Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml:10:9-54
+		ADDED from /Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml:10:9-54
 	android:icon
-		ADDED from /Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml:8:9-43
+		ADDED from /Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml:8:9-43
 	android:allowBackup
-		ADDED from /Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml:7:9-35
+		ADDED from /Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml:7:9-35
 	android:networkSecurityConfig
-		ADDED from [:lib] /Users/mingwei/AsClone/Android/LMWNetwork/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:18-78
+		ADDED from [:lib] /Users/limingwei/AndroidStudioClone/LMWNetwork/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:18-78
 	android:theme
-		ADDED from /Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml:12:9-40
+		ADDED from /Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml:12:9-40
 	android:name
-		ADDED from /Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml:6:9-40
+		ADDED from /Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml:6:9-40
 activity#com.lmw.lmwnetwork.MainActivity
-ADDED from /Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml:13:9-19:20
+ADDED from /Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml:13:9-19:20
 	android:name
-		ADDED from /Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml:13:19-47
+		ADDED from /Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml:13:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml:14:13-18:29
+ADDED from /Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml:14:13-18:29
 action#android.intent.action.MAIN
-ADDED from /Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml:15:17-69
+ADDED from /Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml:15:17-69
 	android:name
-		ADDED from /Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml:15:25-66
+		ADDED from /Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml:15:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml:17:17-77
+ADDED from /Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml:17:17-77
 	android:name
-		ADDED from /Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml:17:27-74
+		ADDED from /Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml:17:27-74
 uses-sdk
-INJECTED from /Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml
-INJECTED from /Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml
-MERGED from [:lib] /Users/mingwei/AsClone/Android/LMWNetwork/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:lib] /Users/mingwei/AsClone/Android/LMWNetwork/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.preference:preference:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/cab729c1d9a5f0aa04852b923fb30865/preference-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.preference:preference:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/cab729c1d9a5f0aa04852b923fb30865/preference-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/b9e914c43ffdb6da264327fd529d0ec4/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/b9e914c43ffdb6da264327fd529d0ec4/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core-ktx:1.3.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/8f646bd51dc19cd1c2acce4ade8c3e38/jetified-core-ktx-1.3.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.core:core-ktx:1.3.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/8f646bd51dc19cd1c2acce4ade8c3e38/jetified-core-ktx-1.3.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/d80c3cba3589ac8c3b1e567d578d4995/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/d80c3cba3589ac8c3b1e567d578d4995/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
-MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/826582aeec3d18ccd71febf69058bd45/jetified-rxandroid-2.1.1/AndroidManifest.xml:18:5-43
-MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/826582aeec3d18ccd71febf69058bd45/jetified-rxandroid-2.1.1/AndroidManifest.xml:18:5-43
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/88784b384c1e00e9a472254e51cc2ab8/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/88784b384c1e00e9a472254e51cc2ab8/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/2bf9583115e18001cdd318f3b3c2dc50/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/2bf9583115e18001cdd318f3b3c2dc50/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/1c59e7c5ae927298e1f412bc3dcccc43/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/1c59e7c5ae927298e1f412bc3dcccc43/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/cd016547fb1a6d6e03ee9d55e65348e4/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/cd016547fb1a6d6e03ee9d55e65348e4/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/29f3a2ee96e81085522ac19f03103100/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/29f3a2ee96e81085522ac19f03103100/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/ea0f736808dc8fced4f19accd11a71e2/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/ea0f736808dc8fced4f19accd11a71e2/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/313e4e23d1adc569b72efd3ac1cb2d90/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/313e4e23d1adc569b72efd3ac1cb2d90/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/22c3bfdce44c8566d86d455e740ff6c3/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/22c3bfdce44c8566d86d455e740ff6c3/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/9832436ef9a0d3329181fc65a62f7ff5/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/9832436ef9a0d3329181fc65a62f7ff5/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/bc22cdfa57d6f64aafb3adf79506ac80/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/bc22cdfa57d6f64aafb3adf79506ac80/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/760f6590ec06a59654c346402e5cd428/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/760f6590ec06a59654c346402e5cd428/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/91b6fd1d294dd7f841a5f065c7e0e100/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/91b6fd1d294dd7f841a5f065c7e0e100/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/f4ae03f90a0a6e361ca78984659ab872/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/f4ae03f90a0a6e361ca78984659ab872/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/504f3c3019c5885d1fb5b3d381bd50b9/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/504f3c3019c5885d1fb5b3d381bd50b9/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/b1b688d0e02c9d6b9dea4d88f55e3b90/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/b1b688d0e02c9d6b9dea4d88f55e3b90/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/7e36e491922e81c6df60b3369b6ec868/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/7e36e491922e81c6df60b3369b6ec868/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/35534b116ddb4621b07d19d7774a69e5/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/35534b116ddb4621b07d19d7774a69e5/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.3.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/c5fc0371a055bf468ea7f13ec7b8a170/core-1.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.3.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/c5fc0371a055bf468ea7f13ec7b8a170/core-1.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/51d3f20ceda47a6c6ca92ece58bd1d81/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/51d3f20ceda47a6c6ca92ece58bd1d81/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/fe6aa0af5efb789fda115d6f3f831b8b/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/fe6aa0af5efb789fda115d6f3f831b8b/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/33ad9d38f7f0852ceb48f2d74c95ca0f/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/33ad9d38f7f0852ceb48f2d74c95ca0f/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/f8cabe7c52b76eb44f1951fcfe4303f5/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/f8cabe7c52b76eb44f1951fcfe4303f5/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/ade1242c4c06b62a9dde96b213f83f5c/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/ade1242c4c06b62a9dde96b213f83f5c/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/26558c811bb7ce035915493c51bc92ef/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/26558c811bb7ce035915493c51bc92ef/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/e9bf6462af3213e7986313224864b135/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/e9bf6462af3213e7986313224864b135/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/dab0c85f87ff500848f787ce02eb0c17/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/dab0c85f87ff500848f787ce02eb0c17/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/3c3b79aa7ebbf5231da05e145d1c89ae/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/3c3b79aa7ebbf5231da05e145d1c89ae/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/67fe2a8954b9f0e6af5f09fcd0650e5e/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/67fe2a8954b9f0e6af5f09fcd0650e5e/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/fa329afac3d35187d1a93609a1443cf7/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/fa329afac3d35187d1a93609a1443cf7/print-1.0.0/AndroidManifest.xml:20:5-44
-INJECTED from /Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml
-INJECTED from /Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml
+INJECTED from /Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml
+INJECTED from /Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml
+MERGED from [:lib] /Users/limingwei/AndroidStudioClone/LMWNetwork/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:lib] /Users/limingwei/AndroidStudioClone/LMWNetwork/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:7:5-44
+MERGED from [com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:7:5-44
+MERGED from [androidx.preference:preference:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/6daa98295621963c32b20874f7e6674b/preference-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.preference:preference:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/6daa98295621963c32b20874f7e6674b/preference-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/b3e3a4190b61d8cbca82b58972b18296/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/b3e3a4190b61d8cbca82b58972b18296/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.3.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/a2aa3c8bca8d83a763643b56a27edfef/jetified-core-ktx-1.3.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/a2aa3c8bca8d83a763643b56a27edfef/jetified-core-ktx-1.3.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/a0cf03732c2d18c0077744c583d2ffa8/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/a0cf03732c2d18c0077744c583d2ffa8/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/1445a659d5b9bc8cf1db85a3b7cc0ffd/jetified-rxandroid-2.1.1/AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/1445a659d5b9bc8cf1db85a3b7cc0ffd/jetified-rxandroid-2.1.1/AndroidManifest.xml:18:5-43
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/32d472d94f30788bfb055ec20ee7e8c3/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/32d472d94f30788bfb055ec20ee7e8c3/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/a03be8af6d179e8d5e22c4555a219793/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/a03be8af6d179e8d5e22c4555a219793/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/e76b1d4b7f774da3d687e739fdb41f43/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/e76b1d4b7f774da3d687e739fdb41f43/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/0d7e0a318812a2a79e52f1b32ae5ba80/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/0d7e0a318812a2a79e52f1b32ae5ba80/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/1b2d56dd5def0ff724a5a0b9875011dd/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/1b2d56dd5def0ff724a5a0b9875011dd/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/947bf955400b6d58d023254689419f47/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/947bf955400b6d58d023254689419f47/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/625d33ec924ac4052e1fb5364cfa8e44/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/625d33ec924ac4052e1fb5364cfa8e44/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/570985f82799d0b77eed396d577e04ff/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/570985f82799d0b77eed396d577e04ff/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/a9720123e41e82b317d8af9217e93ac0/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/a9720123e41e82b317d8af9217e93ac0/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/b14fa9df586c16ac219eb291981ef47a/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/b14fa9df586c16ac219eb291981ef47a/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/c94abb0d564c81430f2b504ca07d1539/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/c94abb0d564c81430f2b504ca07d1539/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/8dfd70dc64ec2ddcc3e1cfeeaa11e892/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/8dfd70dc64ec2ddcc3e1cfeeaa11e892/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55859d3bda9d878d20a2e83643b33167/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55859d3bda9d878d20a2e83643b33167/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/83a88a2be5eec2aae12e197cc66af63e/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/83a88a2be5eec2aae12e197cc66af63e/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/686b55d7342f2005a030f0dd636a0ab0/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/686b55d7342f2005a030f0dd636a0ab0/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/b02bf5d01ae9bd1dd9c1d84b2a23d51f/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/b02bf5d01ae9bd1dd9c1d84b2a23d51f/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/87ffaf378cbe1dcab6d37a6ca4e96b5a/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/87ffaf378cbe1dcab6d37a6ca4e96b5a/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/d0fe3fd4863ed63cfaba31a75f9b72db/core-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/d0fe3fd4863ed63cfaba31a75f9b72db/core-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/62107d02081c86dea6bd182177c000b6/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/62107d02081c86dea6bd182177c000b6/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/4da5d4791ec483b53d05a748b1f85676/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/4da5d4791ec483b53d05a748b1f85676/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/c09bcef74c025ac5ff2b59847d3668af/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/c09bcef74c025ac5ff2b59847d3668af/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/942546730c6dae2beca8d23a37209389/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/942546730c6dae2beca8d23a37209389/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/8c7e1e0fbf5c4a856ad8d5822a3c47d4/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/8c7e1e0fbf5c4a856ad8d5822a3c47d4/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/f591bc26810f18df837716943a7a0a00/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/f591bc26810f18df837716943a7a0a00/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/890f8fe6a9c91bad78bb504055bf3e82/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/890f8fe6a9c91bad78bb504055bf3e82/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/e554419b79c74e36a0417a422832ea35/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/e554419b79c74e36a0417a422832ea35/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/76efb8894833e5b03686cbb6fe429801/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/76efb8894833e5b03686cbb6fe429801/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/ab2a5691ca8cc709de078008f9f2206f/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/ab2a5691ca8cc709de078008f9f2206f/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/3ab65870353eaaea728dcb437c02f7da/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/3ab65870353eaaea728dcb437c02f7da/print-1.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml
+INJECTED from /Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml
-		ADDED from /Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml
+		ADDED from /Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml
-		ADDED from /Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml
+		ADDED from /Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from [:lib] /Users/mingwei/AsClone/Android/LMWNetwork/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+ADDED from [:lib] /Users/limingwei/AndroidStudioClone/LMWNetwork/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
 	android:name
-		ADDED from [:lib] /Users/mingwei/AsClone/Android/LMWNetwork/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-64
+		ADDED from [:lib] /Users/limingwei/AndroidStudioClone/LMWNetwork/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-64
+activity#com.blankj.utilcode.util.UtilsTransActivity4MainProcess
+ADDED from [com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:10:9-14:75
+	android:windowSoftInputMode
+		ADDED from [com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:14:13-72
+	android:configChanges
+		ADDED from [com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:12:13-74
+	android:theme
+		ADDED from [com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:13:13-55
+	android:name
+		ADDED from [com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:11:13-83
+activity#com.blankj.utilcode.util.UtilsTransActivity
+ADDED from [com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:15:9-20:75
+	android:multiprocess
+		ADDED from [com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:18:13-40
+	android:windowSoftInputMode
+		ADDED from [com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:20:13-72
+	android:configChanges
+		ADDED from [com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:17:13-74
+	android:theme
+		ADDED from [com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:19:13-55
+	android:name
+		ADDED from [com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:16:13-71
+provider#com.blankj.utilcode.util.UtilsFileProvider
+ADDED from [com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:22:9-30:20
+	android:grantUriPermissions
+		ADDED from [com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:26:13-47
+	android:authorities
+		ADDED from [com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:24:13-69
+	android:exported
+		ADDED from [com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:23:13-70
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:27:13-29:68
+	android:resource
+		ADDED from [com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:29:17-65
+	android:name
+		ADDED from [com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:28:17-67
+service#com.blankj.utilcode.util.MessengerUtils$ServerService
+ADDED from [com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:32:9-38:19
+	android:exported
+		ADDED from [com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:33:13-81
+intent-filter#action:name:${applicationId}.messenger
+ADDED from [com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:35:13-37:29
+intent-filter#action:name:com.lmw.lmwnetwork.messenger
+ADDED from [com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:35:13-37:29
+action#${applicationId}.messenger
+ADDED from [com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from [com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:36:25-66
+action#com.lmw.lmwnetwork.messenger
+ADDED from [com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from [com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:36:25-66

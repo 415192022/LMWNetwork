@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/mingwei/AsClone/Android/LMWNetwork/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw360dp-v13/values-sw360dp-v13.xml",
+            "outputFile": "/Users/limingwei/AndroidStudioClone/LMWNetwork/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw360dp-v13/values-sw360dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/mingwei/.gradle/caches/transforms-2/files-2.1/cab729c1d9a5f0aa04852b923fb30865/preference-1.0.0/res/values-sw360dp-v13/values-sw360dp-v13.xml",
+                    "source": "/Users/limingwei/.gradle/caches/transforms-2/files-2.1/6daa98295621963c32b20874f7e6674b/preference-1.0.0/res/values-sw360dp-v13/values-sw360dp-v13.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

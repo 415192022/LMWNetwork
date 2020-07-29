@@ -6,50 +6,104 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="16"
-8-->/Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml
+8-->/Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->/Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml
+9-->/Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->[:lib] /Users/mingwei/AsClone/Android/LMWNetwork/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
-11-->[:lib] /Users/mingwei/AsClone/Android/LMWNetwork/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-64
+11-->[:lib] /Users/limingwei/AndroidStudioClone/LMWNetwork/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+11-->[:lib] /Users/limingwei/AndroidStudioClone/LMWNetwork/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-64
 12
 13    <application
-13-->/Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml:5:5-20:19
+13-->/Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml:5:5-20:19
 14        android:name="com.lmw.lmwnetwork.BaseApplication"
-14-->/Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml:6:9-40
+14-->/Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml:6:9-40
 15        android:allowBackup="true"
-15-->/Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml:7:9-35
+15-->/Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml:7:9-35
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-16-->[androidx.core:core:1.3.0] /Users/mingwei/.gradle/caches/transforms-2/files-2.1/c5fc0371a055bf468ea7f13ec7b8a170/core-1.3.0/AndroidManifest.xml:24:18-86
+16-->[androidx.core:core:1.3.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/d0fe3fd4863ed63cfaba31a75f9b72db/core-1.3.0/AndroidManifest.xml:24:18-86
 17        android:debuggable="true"
 18        android:icon="@mipmap/ic_launcher"
-18-->/Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml:8:9-43
+18-->/Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml:8:9-43
 19        android:label="@string/app_name"
-19-->/Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml:9:9-41
+19-->/Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml:9:9-41
 20        android:networkSecurityConfig="@xml/network_security_config"
-20-->[:lib] /Users/mingwei/AsClone/Android/LMWNetwork/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:18-78
+20-->[:lib] /Users/limingwei/AndroidStudioClone/LMWNetwork/lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:18-78
 21        android:roundIcon="@mipmap/ic_launcher_round"
-21-->/Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml:10:9-54
+21-->/Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml:10:9-54
 22        android:supportsRtl="true"
-22-->/Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml:11:9-35
+22-->/Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml:11:9-35
 23        android:testOnly="true"
 24        android:theme="@style/AppTheme" >
-24-->/Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml:12:9-40
+24-->/Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml:12:9-40
 25        <activity android:name="com.lmw.lmwnetwork.MainActivity" >
-25-->/Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml:13:9-19:20
-25-->/Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml:13:19-47
+25-->/Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml:13:9-19:20
+25-->/Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml:13:19-47
 26            <intent-filter>
-26-->/Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml:14:13-18:29
+26-->/Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml:14:13-18:29
 27                <action android:name="android.intent.action.MAIN" />
-27-->/Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml:15:17-69
-27-->/Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml:15:25-66
+27-->/Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml:15:17-69
+27-->/Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml:15:25-66
 28
 29                <category android:name="android.intent.category.LAUNCHER" />
-29-->/Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml:17:17-77
-29-->/Users/mingwei/AsClone/Android/LMWNetwork/app/src/main/AndroidManifest.xml:17:27-74
+29-->/Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml:17:17-77
+29-->/Users/limingwei/AndroidStudioClone/LMWNetwork/app/src/main/AndroidManifest.xml:17:27-74
 30            </intent-filter>
 31        </activity>
-32    </application>
-33
-34</manifest>
+32        <activity
+32-->[com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:10:9-14:75
+33            android:name="com.blankj.utilcode.util.UtilsTransActivity4MainProcess"
+33-->[com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:11:13-83
+34            android:configChanges="orientation|keyboardHidden|screenSize"
+34-->[com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:12:13-74
+35            android:theme="@style/ActivityTranslucent"
+35-->[com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:13:13-55
+36            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+36-->[com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:14:13-72
+37        <activity
+37-->[com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:15:9-20:75
+38            android:name="com.blankj.utilcode.util.UtilsTransActivity"
+38-->[com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:16:13-71
+39            android:configChanges="orientation|keyboardHidden|screenSize"
+39-->[com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:17:13-74
+40            android:multiprocess="true"
+40-->[com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:18:13-40
+41            android:theme="@style/ActivityTranslucent"
+41-->[com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:19:13-55
+42            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+42-->[com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:20:13-72
+43
+44        <provider
+44-->[com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:22:9-30:20
+45            android:name="com.blankj.utilcode.util.UtilsFileProvider"
+45-->[com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:23:13-70
+46            android:authorities="com.lmw.lmwnetwork.utilcode.provider"
+46-->[com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:24:13-69
+47            android:exported="false"
+47-->[com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:25:13-37
+48            android:grantUriPermissions="true" >
+48-->[com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:26:13-47
+49            <meta-data
+49-->[com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:27:13-29:68
+50                android:name="android.support.FILE_PROVIDER_PATHS"
+50-->[com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:28:17-67
+51                android:resource="@xml/util_code_provider_paths" />
+51-->[com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:29:17-65
+52        </provider>
+53
+54        <service
+54-->[com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:32:9-38:19
+55            android:name="com.blankj.utilcode.util.MessengerUtils$ServerService"
+55-->[com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:33:13-81
+56            android:exported="false" >
+56-->[com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:34:13-37
+57            <intent-filter>
+57-->[com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:35:13-37:29
+58                <action android:name="com.lmw.lmwnetwork.messenger" />
+58-->[com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:36:17-69
+58-->[com.blankj:utilcodex:1.29.0] /Users/limingwei/.gradle/caches/transforms-2/files-2.1/55b8e873ce586bdc588a704c27d86c2c/jetified-utilcodex-1.29.0/AndroidManifest.xml:36:25-66
+59            </intent-filter>
+60        </service>
+61    </application>
+62
+63</manifest>

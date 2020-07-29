@@ -3,9 +3,9 @@ package com.lmw.lmwnetwork;
 import android.app.Application;
 
 import com.lmw.lmwnetwork.lib.core.BaseNetworkApi;
-import com.lmw.lmwnetwork.net.CommonRequestInterceptor;
-import com.lmw.lmwnetwork.net.CommonResponseInterceptor;
-import com.lmw.lmwnetwork.net.ExceptionHandle;
+import com.lmw.lmwnetwork.net.base.interceptor.CommonRequestInterceptor;
+import com.lmw.lmwnetwork.net.base.interceptor.CommonResponseInterceptor;
+import com.lmw.lmwnetwork.net.base.exception.ExceptionHandle;
 import com.lmw.lmwnetwork.net.NetworkRequestInfo;
 
 import java.util.ArrayList;

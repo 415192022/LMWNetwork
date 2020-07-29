@@ -2,7 +2,16 @@ package com.lmw.lmwnetwork.lib.core;
 
 
 import android.content.Context;
+import android.os.Build;
 
+import androidx.annotation.RequiresApi;
+
+import com.lmw.lmwnetwork.lib.BuildConfig;
+import com.lmw.lmwnetwork.lib.converter.CustomConverter;
+import com.lmw.lmwnetwork.lib.cookie.ClearableCookieJar;
+import com.lmw.lmwnetwork.lib.cookie.PersistentCookieJar;
+import com.lmw.lmwnetwork.lib.cookie.cache.SetCookieCache;
+import com.lmw.lmwnetwork.lib.cookie.persistence.SharedPrefsCookiePersistor;
 import com.lmw.lmwnetwork.lib.environment.IEnvironment;
 import com.lmw.lmwnetwork.lib.exception.BaseExceptionHandle;
 import com.lmw.lmwnetwork.lib.interceptor.BaseInterceptor;
@@ -10,6 +19,7 @@ import com.lmw.lmwnetwork.lib.interceptor.BaseInterceptor;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import io.reactivex.Observable;
 import io.reactivex.ObservableSource;
@@ -41,6 +51,16 @@ public abstract class BaseNetworkApi implements IEnvironment {
     private static List<Interceptor> mInterceptorList = new ArrayList<>();
 
     private static BaseExceptionHandle mIExceptionHandle;
+
+    private boolean mRetryOnConnectionFailure;
+
+    private int mConnectTimeout;
+
+    private int mWriteTimeout;
+
+    private int mReadTimeout;
+
+    private ClearableCookieJar mCookieJar;
 
     public static Context getApplication() {
         return mApplication;
@@ -78,26 +98,45 @@ public abstract class BaseNetworkApi implements IEnvironment {
         retrofitBuilder.client(getOkHttpClient());
         retrofitBuilder.addConverterFactory(GsonConverterFactory.create());
         retrofitBuilder.addCallAdapterFactory(RxJava2CallAdapterFactory.create());
+        retrofitBuilder.addConverterFactory(CustomConverter.create());
         Retrofit retrofit = retrofitBuilder.build();
         retrofitHashMap.put(mBaseUrl + service.getName(), retrofit);
         return retrofit;
     }
 
     private OkHttpClient getOkHttpClient() {
+        mRetryOnConnectionFailure = true;
+        mConnectTimeout = 20;
+        mWriteTimeout = 20;
+        mReadTimeout = 20;
+        mCookieJar = new PersistentCookieJar(new SetCookieCache(), new SharedPrefsCookiePersistor(mApplication));
         if (mOkHttpClient == null) {
             OkHttpClient.Builder okHttpClientBuilder = new OkHttpClient.Builder();
             if (getInterceptor() != null) {
                 okHttpClientBuilder.addInterceptor(getInterceptor());
             }
             int cacheSize = 100 * 1024 * 1024; // 10MB
-            okHttpClientBuilder.cache(new Cache(iNetworkRequiredInfo.getApplicationContext().getCacheDir(), cacheSize));
+            okHttpClientBuilder
+                    .cache(new Cache(iNetworkRequiredInfo.getApplicationContext().getCacheDir(), cacheSize))
+                    .retryOnConnectionFailure(mRetryOnConnectionFailure)//是否重连接
+                    .connectTimeout(mConnectTimeout, TimeUnit.SECONDS)//连接超时
+                    .writeTimeout(mWriteTimeout, TimeUnit.SECONDS)//设置写的超时时间
+                    .readTimeout(mReadTimeout, TimeUnit.SECONDS)//设置读取超时
+                    .cookieJar(mCookieJar);
             for (Interceptor interceptor : mInterceptorList) {
                 okHttpClientBuilder.addInterceptor(interceptor);
             }
             if (iNetworkRequiredInfo != null && (iNetworkRequiredInfo.isDebug())) {
-                HttpLoggingInterceptor httpLoggingInterceptor = new HttpLoggingInterceptor();
-                httpLoggingInterceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
-                okHttpClientBuilder.addInterceptor(httpLoggingInterceptor);
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+                    HttpLogInterceptor httpLoggingInterceptor = new HttpLogInterceptor();
+                    if (BuildConfig.DEBUG) {
+                        okHttpClientBuilder.addInterceptor(httpLoggingInterceptor);//网络请求Log打印
+                    }
+                } else {
+                    HttpLoggingInterceptor httpLoggingInterceptor = new HttpLoggingInterceptor();
+                    httpLoggingInterceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
+                    okHttpClientBuilder.addInterceptor(httpLoggingInterceptor);
+                }
             }
             mOkHttpClient = okHttpClientBuilder.build();
         }

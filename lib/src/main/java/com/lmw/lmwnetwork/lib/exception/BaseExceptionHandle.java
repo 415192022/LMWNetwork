@@ -12,6 +12,7 @@ import java.net.ConnectException;
 import retrofit2.HttpException;
 
 public abstract class BaseExceptionHandle implements IException {
+
     public ResponseThrowable handleException(Throwable e) {
         ResponseThrowable ex;
         if (e instanceof HttpException) {

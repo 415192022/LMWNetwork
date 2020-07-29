@@ -1,4 +1,4 @@
-#Tue Jul 28 21:30:24 CST 2020
-base.0=/Users/mingwei/AsClone/Android/LMWNetwork/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+#Wed Jul 29 18:05:04 CST 2020
+base.0=/Users/limingwei/AndroidStudioClone/LMWNetwork/app/build/intermediates/dex/debug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

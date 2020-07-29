@@ -6,16 +6,16 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="16"
-8-->/Users/mingwei/AsClone/Android/LMWNetwork/lib/src/main/AndroidManifest.xml
+8-->/Users/limingwei/AndroidStudioClone/LMWNetwork/lib/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->/Users/mingwei/AsClone/Android/LMWNetwork/lib/src/main/AndroidManifest.xml
+9-->/Users/limingwei/AndroidStudioClone/LMWNetwork/lib/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/Users/mingwei/AsClone/Android/LMWNetwork/lib/src/main/AndroidManifest.xml:4:5-67
-11-->/Users/mingwei/AsClone/Android/LMWNetwork/lib/src/main/AndroidManifest.xml:4:22-64
+11-->/Users/limingwei/AndroidStudioClone/LMWNetwork/lib/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/limingwei/AndroidStudioClone/LMWNetwork/lib/src/main/AndroidManifest.xml:4:22-64
 12
 13    <application android:networkSecurityConfig="@xml/network_security_config" />
-13-->/Users/mingwei/AsClone/Android/LMWNetwork/lib/src/main/AndroidManifest.xml:5:5-93
-13-->/Users/mingwei/AsClone/Android/LMWNetwork/lib/src/main/AndroidManifest.xml:5:18-78
+13-->/Users/limingwei/AndroidStudioClone/LMWNetwork/lib/src/main/AndroidManifest.xml:5:5-93
+13-->/Users/limingwei/AndroidStudioClone/LMWNetwork/lib/src/main/AndroidManifest.xml:5:18-78
 14
 15</manifest>
