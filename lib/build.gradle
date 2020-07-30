@@ -36,6 +36,7 @@ dependencies {
     api 'com.squareup.retrofit2:converter-gson:2.4.0'
     api 'com.squareup.okhttp3:okhttp:2.4.0'
     api 'com.squareup.retrofit2:adapter-rxjava2:2.4.0'
+    api 'com.squareup.okhttp3:logging-interceptor:3.9.0'
     //v1.5
     api 'io.reactivex.rxjava2:rxandroid:2.1.1'
     // Because RxAndroid releases are few and far between, it is recommended you also
