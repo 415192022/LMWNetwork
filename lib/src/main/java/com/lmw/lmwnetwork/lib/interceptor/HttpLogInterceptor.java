@@ -5,7 +5,6 @@ import android.os.Build;
 import androidx.annotation.RequiresApi;
 
 
-import com.lmw.lmwnetwork.lib.BuildConfig;
 import com.lmw.lmwnetwork.lib.progress.ProgressRequestBody;
 import com.lmw.lmwnetwork.lib.utils.JSONFormatter;
 
@@ -44,9 +43,7 @@ public class HttpLogInterceptor implements Interceptor {
         this(new Logger() {
             @Override
             public void log(String message) {
-                if (BuildConfig.DEBUG) {
-                    Platform.get().log(Platform.WARN, message, null);
-                }
+                Platform.get().log(Platform.WARN, message, null);
             }
         });
     }
