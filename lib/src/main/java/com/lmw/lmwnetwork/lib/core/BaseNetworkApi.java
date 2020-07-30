@@ -128,9 +128,7 @@ public abstract class BaseNetworkApi implements IEnvironment {
             if (iNetworkRequiredInfo != null && (iNetworkRequiredInfo.isDebug())) {
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
                     HttpLogInterceptor httpLoggingInterceptor = new HttpLogInterceptor();
-                    if (BuildConfig.DEBUG) {
-                        okHttpClientBuilder.addInterceptor(httpLoggingInterceptor);//网络请求Log打印
-                    }
+                    okHttpClientBuilder.addInterceptor(httpLoggingInterceptor);//网络请求Log打印
                 } else {
                     HttpLoggingInterceptor httpLoggingInterceptor = new HttpLoggingInterceptor();
                     httpLoggingInterceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
