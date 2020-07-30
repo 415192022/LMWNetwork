@@ -1,34 +1,26 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/limingwei/AndroidStudioClone/LMWNetwork/lib/src/main/AndroidManifest.xml:1:1-7:12
-INJECTED from /Users/limingwei/AndroidStudioClone/LMWNetwork/lib/src/main/AndroidManifest.xml:1:1-7:12
-INJECTED from /Users/limingwei/AndroidStudioClone/LMWNetwork/lib/src/main/AndroidManifest.xml:1:1-7:12
-INJECTED from /Users/limingwei/AndroidStudioClone/LMWNetwork/lib/src/main/AndroidManifest.xml:1:1-7:12
-INJECTED from /Users/limingwei/AndroidStudioClone/LMWNetwork/lib/src/main/AndroidManifest.xml:1:1-7:12
-INJECTED from /Users/limingwei/AndroidStudioClone/LMWNetwork/lib/src/main/AndroidManifest.xml:1:1-7:12
-INJECTED from /Users/limingwei/AndroidStudioClone/LMWNetwork/lib/src/main/AndroidManifest.xml:1:1-7:12
+ADDED from /Users/limingwei/AndroidStudioClone/LMWNetwork/lib/src/main/AndroidManifest.xml:1:1-3:12
+INJECTED from /Users/limingwei/AndroidStudioClone/LMWNetwork/lib/src/main/AndroidManifest.xml:1:1-3:12
+INJECTED from /Users/limingwei/AndroidStudioClone/LMWNetwork/lib/src/main/AndroidManifest.xml:1:1-3:12
+INJECTED from /Users/limingwei/AndroidStudioClone/LMWNetwork/lib/src/main/AndroidManifest.xml:1:1-3:12
+INJECTED from /Users/limingwei/AndroidStudioClone/LMWNetwork/lib/src/main/AndroidManifest.xml:1:1-3:12
+INJECTED from /Users/limingwei/AndroidStudioClone/LMWNetwork/lib/src/main/AndroidManifest.xml:1:1-3:12
+INJECTED from /Users/limingwei/AndroidStudioClone/LMWNetwork/lib/src/main/AndroidManifest.xml:1:1-3:12
 	package
 		ADDED from /Users/limingwei/AndroidStudioClone/LMWNetwork/lib/src/main/AndroidManifest.xml:2:5-37
 		INJECTED from /Users/limingwei/AndroidStudioClone/LMWNetwork/lib/src/main/AndroidManifest.xml
 		INJECTED from /Users/limingwei/AndroidStudioClone/LMWNetwork/lib/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/limingwei/AndroidStudioClone/LMWNetwork/lib/src/main/AndroidManifest.xml
-		ADDED from /Users/limingwei/AndroidStudioClone/LMWNetwork/lib/src/main/AndroidManifest.xml:1:1-7:12
+		ADDED from /Users/limingwei/AndroidStudioClone/LMWNetwork/lib/src/main/AndroidManifest.xml:1:1-3:12
 		INJECTED from /Users/limingwei/AndroidStudioClone/LMWNetwork/lib/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/limingwei/AndroidStudioClone/LMWNetwork/lib/src/main/AndroidManifest.xml
-		ADDED from /Users/limingwei/AndroidStudioClone/LMWNetwork/lib/src/main/AndroidManifest.xml:1:1-7:12
+		ADDED from /Users/limingwei/AndroidStudioClone/LMWNetwork/lib/src/main/AndroidManifest.xml:1:1-3:12
 		INJECTED from /Users/limingwei/AndroidStudioClone/LMWNetwork/lib/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/limingwei/AndroidStudioClone/LMWNetwork/lib/src/main/AndroidManifest.xml:1:11-69
-uses-permission#android.permission.INTERNET
-ADDED from /Users/limingwei/AndroidStudioClone/LMWNetwork/lib/src/main/AndroidManifest.xml:4:5-67
-	android:name
-		ADDED from /Users/limingwei/AndroidStudioClone/LMWNetwork/lib/src/main/AndroidManifest.xml:4:22-64
-application
-ADDED from /Users/limingwei/AndroidStudioClone/LMWNetwork/lib/src/main/AndroidManifest.xml:5:5-93
-	android:networkSecurityConfig
-		ADDED from /Users/limingwei/AndroidStudioClone/LMWNetwork/lib/src/main/AndroidManifest.xml:5:18-78
 uses-sdk
 INJECTED from /Users/limingwei/AndroidStudioClone/LMWNetwork/lib/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/limingwei/AndroidStudioClone/LMWNetwork/lib/src/main/AndroidManifest.xml

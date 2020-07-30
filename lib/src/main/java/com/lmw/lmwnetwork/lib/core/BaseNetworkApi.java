@@ -4,8 +4,6 @@ package com.lmw.lmwnetwork.lib.core;
 import android.content.Context;
 import android.os.Build;
 
-import androidx.annotation.RequiresApi;
-
 import com.lmw.lmwnetwork.lib.BuildConfig;
 import com.lmw.lmwnetwork.lib.converter.CustomConverter;
 import com.lmw.lmwnetwork.lib.cookie.ClearableCookieJar;
@@ -15,6 +13,7 @@ import com.lmw.lmwnetwork.lib.cookie.persistence.SharedPrefsCookiePersistor;
 import com.lmw.lmwnetwork.lib.environment.IEnvironment;
 import com.lmw.lmwnetwork.lib.exception.BaseExceptionHandle;
 import com.lmw.lmwnetwork.lib.interceptor.BaseInterceptor;
+import com.lmw.lmwnetwork.lib.interceptor.HttpLogInterceptor;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -31,7 +30,6 @@ import io.reactivex.schedulers.Schedulers;
 import okhttp3.Cache;
 import okhttp3.Interceptor;
 import okhttp3.OkHttpClient;
-import okhttp3.logging.HttpLoggingInterceptor;
 import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
@@ -132,10 +130,6 @@ public abstract class BaseNetworkApi implements IEnvironment {
                     if (BuildConfig.DEBUG) {
                         okHttpClientBuilder.addInterceptor(httpLoggingInterceptor);//网络请求Log打印
                     }
-                } else {
-                    HttpLoggingInterceptor httpLoggingInterceptor = new HttpLoggingInterceptor();
-                    httpLoggingInterceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
-                    okHttpClientBuilder.addInterceptor(httpLoggingInterceptor);
                 }
             }
             mOkHttpClient = okHttpClientBuilder.build();
